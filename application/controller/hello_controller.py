@@ -3,5 +3,5 @@ from application import app
 
 
 @app.route('/')
-def home():
+def hello():
     return render_template('index.html')
